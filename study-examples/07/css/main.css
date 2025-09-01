@@ -1,0 +1,11 @@
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    margin: 5px;
+}
