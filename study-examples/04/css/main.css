@@ -1,0 +1,154 @@
+input, div, textarea {
+    box-sizing: border-box;
+}
+.main-background {
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/cat.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 1px;
+    position: relative;
+}
+
+.main-title {
+    color: black;
+    font-size: 40px;
+    margin-top: 280px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.main-content {
+    color: black;
+    font-size: 24px;
+    margin-top: 12px;
+    text-align: center;
+}
+
+button {
+    padding: 8px;
+    border-radius: 4px;
+    margin-top: 0px;
+    background-color: white;
+    border: none;
+}
+
+button:hover {
+    background-color: #f1f1f1;
+}
+
+.explain-box {
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+    padding: 10px;
+    background-color: #f1f1f1;
+    text-align: center;
+    position: relative;
+    top: -30px;
+}
+
+.form-background {
+    background-color: black;
+    padding: 30px;
+}
+
+.form-white {
+    background-color: white;
+    padding: 30px;
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #E2E8F0;
+}
+
+.w-50{
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+
+.w-100{
+    width: 100%;
+    padding: 10px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #E2E8F0;
+    height: 160px;
+}
+
+.subbtn {
+    background-color: orange;
+    color: white;
+    width: 80px;
+    display: block;
+    margin-left: auto;
+}
+
+.shop-bg {
+    background-color: #eee;
+    padding: 20px;
+}
+
+.shop-container {
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+
+.shop-item {
+    width: 33%;
+    padding: 10px;
+}
+
+.shop-item img {
+    width: 100%;
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #00000050;
+    opacity: 0;
+    transition: all 1s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.overlay:hover{
+    opacity: 1;
+}
+
+.overlay-wrap {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.overlay-black {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.3);
+    margin-top: 100%;
+    transition: all 1s;
+}
+
+.overlay-wrap:hover .overlay-black {
+    margin-top: 30%;
+}
